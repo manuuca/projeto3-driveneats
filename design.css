@@ -1,0 +1,151 @@
+.top {
+    background-color: #CF2B2B;
+    height: 92px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.title {
+    margin-left: 21px;
+    font-family: Righteous;
+    font-size: 44px;   
+}
+
+.title2 {
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 400;
+    margin-left: 21px;
+}
+
+.container-content {
+    background-color: #E5E5E5;
+    margin-top: 92px;
+    height: 1010px  ;
+    width: auto;
+}
+
+.type-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    margin-left:19px;
+}
+
+.text-content {
+    color: #333333;
+    font-size: 26px;
+    font-family: righteous;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.option-content {
+    height: 240px;
+    width: auto;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.unit-content {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 172px;
+    height: 216px;
+    border-radius: 9px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 16px;
+}
+
+.unit-content img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+.unit-content h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.unit-content h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    width: 147px;
+    color: #a6a6a6;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.unit-content h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 6px;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.bottom {
+    background-color: #FFFFFF;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.finish {
+    background-color: #CBCBCB;
+    height: 61px;
+    width: 364px;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
+.finish-text {
+    width: 240px;
+}
